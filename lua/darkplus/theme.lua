@@ -457,12 +457,12 @@ theme.set_highlights = function()
   hl(0, "NavicSeparator", { fg = c.context, bg = 'NONE' })
 
   -- Packer
-  hl(0, "packerString", { fg = c.ui_orange, bg = 'NONE' })
-  hl(0, "packerHash", { fg = c.ui4_blue, bg = 'NONE' })
+  hl(0, "packerString", { fg = c.fg, bg = 'NONE' })
+  hl(0, "packerHash", { fg = c.fg, bg = 'NONE' })
   hl(0, "packerOutput", { fg = c.ui_purple, bg = 'NONE' })
   hl(0, "packerRelDate", { fg = c.gray, bg = 'NONE' })
   hl(0, "packerSuccess", { fg = c.success_green, bg = 'NONE' })
-  hl(0, "packerStatusSuccess", { fg = c.ui4_blue, bg = 'NONE' })
+  hl(0, "packerStatusSuccess", { fg = c.fg, bg = 'NONE' })
 
   -- SymbolOutline
   hl(0, "SymbolsOutlineConnector", { fg = c.gray, bg = 'NONE' })
