@@ -80,6 +80,9 @@ theme.set_highlights = function()
   hl(0, "Typedef", { fg = c.purple, bg = 'NONE' })
   hl(0, "Define", { fg = c.purple, bg = 'NONE' })
   hl(0, "Macro", { fg = c.purple, bg = 'NONE' })
+  hl(0, "SpecialChar", { fg = c.yellow_orange, bg = 'NONE' })
+  hl(0, "Delimiter", { fg = c.fg, bg = 'NONE' })
+  hl(0, "SpecialComment", { fg = c.fg, bg = 'NONE' })
   
   -- Treesitter
   hl(0, "@comment", { fg = c.green, bg = 'NONE', italic = true, })
