@@ -66,8 +66,21 @@ theme.set_highlights = function()
   hl(0, "Identifier", { fg = c.identifier, bg = 'NONE' })
 
   -- Code
-
-
+  hl(0, "Comment", { fg = c.context, bg = 'NONE' })
+  hl(0, "String", { fg = c.orange, bg = 'NONE' })
+  hl(0, "Character", { fg = c.orange, bg = 'NONE' })
+  hl(0, "Number", { fg = c.light_green, bg = 'NONE' })
+  hl(0, "Constant", { fg = c.ui_purple1, bg = 'NONE' })
+  hl(0, "Type", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "Function", { fg = c.yellow, bg = 'NONE' })
+  hl(0, "Keyword", { fg = c.blue, bg = 'NONE' })
+  hl(0, "Conditional", { fg = c.purple, bg = 'NONE' })
+  hl(0, "Repeat", { fg = c.purple, bg = 'NONE' })
+  hl(0, "Structure", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "Typedef", { fg = c.purple, bg = 'NONE' })
+  hl(0, "Define", { fg = c.purple, bg = 'NONE' })
+  hl(0, "Macro", { fg = c.purple, bg = 'NONE' })
+  
   -- Treesitter
   hl(0, "@comment", { fg = c.green, bg = 'NONE', italic = true, })
   hl(0, "@none", { fg = 'NONE', bg = 'NONE' })
